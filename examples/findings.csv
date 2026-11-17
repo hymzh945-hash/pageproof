@@ -1,0 +1,12 @@
+severity,check,page,target,detail
+high,mixed_page_size,2,page,11.69x8.27in against 8.27x11.69in on page 1
+medium,mixed_orientation,2,page,"5 pages, page 2 flips from portrait to landscape"
+high,no_text_layer,4,page,"1 image(s) and 0 characters — scanned page, needs OCR before publishing"
+medium,blank_page,5,page,page has no text and no images
+medium,text_in_trim,3,text at left edge,text sits 0.07in from the left edge — inside a 0.25in print safety margin
+medium,text_in_trim,3,text at right edge,text sits 0.07in from the right edge — inside a 0.25in print safety margin
+medium,text_in_trim,3,text at bottom edge,text sits 0.08in from the bottom edge — inside a 0.25in print safety margin
+medium,tiny_text,3,page,75 characters under 6pt (smallest 3.1pt)
+medium,low_dpi_image,4,image 1,"placed at 7.45in wide from 745px — about 100 DPI, under 150 for print"
+medium,font_sprawl,3,page,"5 typefaces on one page: BJTGBH+DejaVuSerif, BYAUBO+LastResortHE-Regular, DZCOOW+DejaVuSans, EEOXVE+DejaVuSansMono, HEPZPB+DejaVuSansMono-Oblique"
+low,empty_metadata,1,document,metadata has no title and no author
